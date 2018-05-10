@@ -1,0 +1,135 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+	font-family: sans-serif;
+}
+.title{
+	text-align: center;
+	padding: 25px;
+	font-family: courier;
+;
+}
+.title h1{
+	margin: 0;
+	padding: 10px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+    font-size: 30px;
+}
+.login-box{
+	width:60%;
+	height: 580px;
+	background: #fff;
+	margin: 0 auto;
+	border:2px solid #fff;
+	box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+.login-box .left{
+	float: left;
+	width: 50%;
+	height: 550px;
+	background: url(kgp.png);
+	background-size: cover;
+	box-sizing: border-box;
+}
+.login-box .right{
+	float: right;
+	width: 50%;
+	height: 550px;
+	box-sizing: border-box;
+}
+.text-box{
+	width: 100%;
+	padding: 80px 80px;
+	box-sizing: border-box;
+	height: 500px;
+	background: #fff;
+}
+.text-box p{
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 25px;
+	color: #000000;
+}
+.text-box input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.text-box input[type="text"],
+.text-box input[type="password"],
+.text-box input[type="email"],
+.text-box input[type="date"]
+{
+	border:none;
+	border-bottom:2px solid #000000;
+	outline: none;
+	height: 40px;
+}
+.text-box input[type="text"]:focus,
+.text-box input[type="password"]:focus,
+.text-box input[type="email"]:focus,
+.text-box input[type="number"]:focus,
+.text-box input[type="date"]:focus
+{
+	border-bottom: 2px solid #000000;
+}
+.text-box input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 45px;
+	color: #fff;
+	background: #262626;
+	cursor: pointer;
+}
+.text-box input[type="submit"]:hover
+{
+    opacity: 0.7;
+}
+.text-box a{
+	color:#E0282A;
+	font-size: 19px;
+	font-weight: bold;
+	font-family:cursive;
+}
+.text-box input[type="checkbox"]
+{
+	width: 13px;
+	height: 15px;
+}
+.text-box input[type="radio"]
+{
+    width: 13px;
+    height: 15px;
+}
+.text-box input[type="number"]
+{
+	width: 75%;
+	height: 25px;
+}
+.signup-box{
+	width: 80%;
+	height: 680px;
+	background: #fff;
+	margin: 0 auto;
+	border:2px solid #fff;
+	box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+.signup-box .left{
+	float: left;
+	width: 50%;
+	height: 680px;
+	background: url(kgp.png);
+	background-size: cover;
+	box-sizing: border-box;
+}
+.signup-box .right{
+	float: right;
+	width: 50%;
+	height: 680px;
+	box-sizing: border-box;
+}
