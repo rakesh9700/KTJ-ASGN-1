@@ -11,11 +11,11 @@ body{
 ;
 }
 .title h1{
-	margin: 0;
+	margin: 1px;
 	padding: 10px;
 	text-transform: uppercase;
 	color: #FFFFFF;
-    font-size: 30px;
+    font-size: 3vw;
 }
 .login-box{
 	width:60%;
@@ -48,11 +48,11 @@ body{
 }
 .text-box p{
 	float: left;
-	margin: 0;
+	margin: 5px;
 	padding: 0;
-	font-family: cursive;
+	font-family: courier;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 1.75vw;
 	color: #000000;
 }
 .text-box input{
@@ -92,9 +92,9 @@ body{
 }
 .text-box a{
 	color:#E0282A;
-	font-size: 19px;
+	font-size: 1.25vw;
 	font-weight: bold;
-	font-family:cursive;
+	font-family:courier;
 }
 .text-box input[type="checkbox"]
 {
